@@ -136,10 +136,6 @@ async def main():
     
         pygame.display.update()
         clock.tick(60)
-        
-    pygame.quit
-    text_surface = font.render(f"GAME OVER!", True, BLACK)
-    screen.blit(text_surface)
         await asyncio.sleep(0)
 
 if __name__ == '__main__':
