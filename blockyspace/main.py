@@ -153,9 +153,7 @@ async def main():
         if score == 75:
             bullet_width =150
             d=0
-    
-    
-    pygame.quit()
+
         await asyncio.sleep(0)
 
 if __name__ == '__main__':
