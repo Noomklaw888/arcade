@@ -97,8 +97,9 @@ async def main():
         screen.blit(scoretext, (10, 10))
         pygame.draw.rect(screen, GREEN, cactus)
         pygame.display.flip()
-    screen.fill(BLACK)
-    screen.blit(gameovertext,(400,300))
+        if running == False:
+            screen.fill(BLACK)
+            screen.blit(gameovertext,(400,300))
         await asyncio.sleep(0)
 
 if __name__ == '__main__':
