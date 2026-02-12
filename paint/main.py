@@ -243,8 +243,6 @@ async def main():
            pygame.draw.rect(screen, DARKGREEN, numnum)
        pygame.display.flip()
     
-    pygame.quit()  
-    
         
         await asyncio.sleep(0)
 
