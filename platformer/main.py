@@ -257,7 +257,6 @@ async def main():
     
         pygame.display.update()
     
-    pygame.quit()
         await asyncio.sleep(0)
 
 if __name__ == '__main__':
